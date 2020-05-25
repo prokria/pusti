@@ -1,6 +1,6 @@
 module.exports = {
   title: 'পুষ্টি প্রক্রিয়া',
-  description: 'খাদ্য ও  পুষ্টি বিজ্ঞান',
+  description: 'খাদ্য ও পুষ্টি বিজ্ঞান',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -14,13 +14,9 @@ module.exports = {
      */
     nav: [
       {
-        text: 'Blog',
+        text: 'প্রবন্ধ সমূহ',
         link: '/',
-      },
-      {
-        text: 'Tags',
-        link: '/tag/',
-      },
+      }
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
