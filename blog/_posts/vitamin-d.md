@@ -8,7 +8,7 @@ location: Dhaka
 ---
 
 
-# ভিটামিন ডি এর প্রয়োজনীয়তা
+# ভিটামিন ডি
 
 ![](./images/vitamin-d.png)
 
