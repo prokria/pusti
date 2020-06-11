@@ -1,3 +1,6 @@
+const navConf = require('./navConf.js');
+const directoriesConf = require('./directoriesConf.js');
+
 module.exports = {
   title: 'পুষ্টি প্রক্রিয়া',
   description: 'খাদ্য ও পুষ্টি বিজ্ঞান',
@@ -9,18 +12,8 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
-    /**
-     * Ref: https://vuepress-theme-blog.ulivz.com/#nav
-     */
-    nav: [
-      {
-        text: 'প্রবন্ধ সমূহ',
-        link: '/',
-      }
-    ],
-    /**
-     * Ref: https://vuepress-theme-blog.ulivz.com/#footer
-     */
+    nav: navConf,
+    directories: directoriesConf,
     footer: {
       contact: [
         {
